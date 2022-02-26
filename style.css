@@ -946,7 +946,7 @@ Version:	1.1
 	margin: 0;
 }
 #portfolio .col-fix{
-	padding:0;
+	padding:10px;
 }
 #portfolio .portfolio-nav {
 	text-align: center;
@@ -1028,6 +1028,8 @@ Version:	1.1
 	position:relative;
 	transition:all 0.3s ease;
 	overflow:hidden;
+	border: solid 2px #252525;
+	box-shadow: 5px 5px #252525d9;
 }
 #portfolio .portfolio-single .btn {
 	position: absolute;
@@ -1093,6 +1095,7 @@ Version:	1.1
 	-webkit-transition: all 0.4s ease;
 	-moz-transition: all 0.4s ease;
 	transition: all 0.4s ease;
+	width: 100%;
 }
 #portfolio .portfolio-single:hover .portfolio-hover {
 	opacity:1;
